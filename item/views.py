@@ -1,3 +1,8 @@
+#CODE SAMPLE
+
+#Python/Django views created to add, edit or delete items for sale in the market place website
+
+
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q
